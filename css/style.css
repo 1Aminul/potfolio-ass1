@@ -36,7 +36,7 @@ h1{
     display: inline-block;
     text-decoration: none;
     background-color: #ff5959;
-    padding: 20px 30px;
+    padding: 14px 30px;
     color: #fff;
     border-radius: 5px;
     margin-top: 24px;
@@ -166,18 +166,36 @@ h1{
     background-color: #d9d9d9;
     color: #000;
     border: none;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
     padding: 5px 10px;
     font-size: 18px;
 }
 button{
     height: 45px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    border-top-left-radius:none;
+    padding: 13px 38px;
+    border-radius: 0 5px 5px 0;
     border: none;
     font-size: 18px;
     background-color: #ff5959;
     color:#fff;
+    cursor: pointer;
+}
+footer{
+    background-color: #0b0d17;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+footer h1{
+    font-family: 'Playball', cursive;
+    font-size: 40px;
+    color: #ff5959;
+    
+}
+footer span{
+    display: inline-block;
+    padding-bottom: 50px;
 }
 
